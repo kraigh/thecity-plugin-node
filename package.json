@@ -1,0 +1,32 @@
+{
+  "name": "thecity-plugin",
+  "version": "0.0.1",
+  "description": "A simple node module for decrypting the oauth payload for The City iframe plugins.",
+  "main": "./index",
+  "scripts": {
+    "test": "mocha -R landing lib/thecity_plugin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecity/thecity-plugin-node.git"
+  },
+  "keywords": [
+    "The",
+    "City",
+    "thecity",
+    "node"
+  ],
+  "author": "Robbie Leib",
+  "dependencies": {
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {
+    "should": "3.1.1",
+    "mocha": "1.17.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecity/thecity-plugin-node/issues"
+  },
+  "homepage": "https://github.com/thecity/thecity-plugin-node"
+}
