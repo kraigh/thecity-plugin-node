@@ -1,8 +1,9 @@
-thecity-plugin-node
+thecity-plugin
 ===================
 
-NPM module for decrypting the oauth data for The City iframe plugins.
+NPM module for decrypting oauth data for The City iframe plugins.
 
+[https://api.onthecity.org/docs/](https://api.onthecity.org/docs/auth#iframe_applications "The City API documentation")
 
 ##Installation##
 
