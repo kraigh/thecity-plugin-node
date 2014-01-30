@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/thecity/thecity-plugin-node/issues"
   },
-  "homepage": "https://github.com/thecity/thecity-plugin-node"
+  "homepage": "https://github.com/thecity/thecity-plugin-node",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
 }
