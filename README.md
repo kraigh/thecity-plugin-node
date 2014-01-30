@@ -8,6 +8,7 @@ NPM module for decrypting oauth data for The City iframe plugins.
 
 ##Installation##
 
+Use [NPM](https://npmjs.org/package/thecity-plugin) to install the package.
 ```javascript
 npm install thecity-plugin
 ```
