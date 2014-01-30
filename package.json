@@ -1,6 +1,6 @@
 {
   "name": "thecity-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple node module for decrypting the oauth payload for The City iframe plugins.",
   "main": "./index",
   "scripts": {
