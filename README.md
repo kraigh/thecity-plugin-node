@@ -1,6 +1,8 @@
 thecity-plugin
 ===================
 [![Build Status](https://travis-ci.org/thecity/thecity-plugin-node.png?branch=master)](https://travis-ci.org/thecity/thecity-plugin-node)
+[![Coverage Status](https://coveralls.io/repos/thecity/thecity-plugin-node/badge.png?branch=master)](https://coveralls.io/r/thecity/thecity-plugin-node?branch=master)
+[![Dependency Status](https://gemnasium.com/thecity/thecity-plugin-node.png)](https://gemnasium.com/thecity/thecity-plugin-node)
 
 NPM module for decrypting oauth data for The City iframe plugins.
 
