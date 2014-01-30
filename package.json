@@ -4,7 +4,7 @@
   "description": "A simple node module for decrypting the oauth payload for The City iframe plugins.",
   "main": "./index",
   "scripts": {
-    "test": "mocha -R landing lib/thecity_plugin.js"
+    "test": "mocha -R landing test/thecity_plugin.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
     "The",
     "City",
     "thecity",
-    "node"
+    "node",
+    "iframe"
   ],
   "author": "Robbie Leib",
   "dependencies": {
