@@ -1,5 +1,6 @@
 thecity-plugin
 ===================
+[![Build Status](https://travis-ci.org/thecity/thecity-plugin-node.png?branch=master)](https://travis-ci.org/thecity/thecity-plugin-node)
 
 NPM module for decrypting oauth data for The City iframe plugins.
 
