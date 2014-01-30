@@ -4,7 +4,8 @@
   "description": "A simple node module for decrypting the oauth payload for The City iframe plugins.",
   "main": "./index",
   "scripts": {
-    "test": "mocha -R landing test/thecity_plugin.js"
+    "test": "mocha -R landing test/thecity_plugin.js",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,10 @@
   },
   "devDependencies": {
     "should": "3.1.1",
-    "mocha": "1.17.1"
+    "mocha": "1.17.1",
+    "coveralls": "~2.7.0",
+    "mocha-lcov-reporter": "0.0.1",
+    "istanbul": "~0.2.4"
   },
   "license": "MIT",
   "bugs": {
